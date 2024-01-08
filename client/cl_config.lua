@@ -5,10 +5,19 @@ Config.UseTarget = GetConvar('UseTarget', 'false') == 'true' -- Use qb-target in
 
 Config.BossMenus = {
     ['police'] = {
-        vector3(461.45, -986.2, 30.73),
+        vector3(448.48, -973.34, 30.69),
+    },
+    ['sheriff1'] = {
+        vector3(-448.53, 6013.89, 32.29)
+    },
+    ['sheriff2'] = {
+        vector3(1859.75, 3691.82, 34.33)
+    },
+    ['sheriff3'] = {
+        vector3(359.13, -1590.46, 31.05)
     },
     ['ambulance'] = {
-        vector3(335.46, -594.52, 43.28),
+        vector3(305.35, -598.32, 43.29),
     },
     ['realestate'] = {
         vector3(-716.11, 261.21, 84.14),
@@ -20,13 +29,34 @@ Config.BossMenus = {
         vector3(-27.47, -1107.13, 27.27),
     },
     ['mechanic'] = {
-        vector3(-339.53, -156.44, 44.59),
+        vector3(-344.49, -123.36, 39.01),
+    },
+    ['mechanic2'] = {
+        vector3(1186.46, 2636.6, 38.4),
+    },
+    ['mechanic3'] = {
+        vector3(-1140.45, -2006.35, 13.18),
+    },
+    ['bennys'] = {
+        vector3(-206.75, -1341.5, 34.89),
+    },
+    ['beeker'] = {
+        vector3(99.45, 6620.85, 32.44),
+    },
+    ['vanillaunicorn'] = {
+        vector3(94.28, -1293.15, 29.27)
     },
 }
 
 Config.BossMenuZones = {
     ['police'] = {
-        { coords = vector3(447.23, -974.3, 31.47), length = 1.35, width = 1.45, heading = 351.0, minZ = 30.00, maxZ = 31.73 },    },
+        { coords = vector3(448.48, -973.34, 30.69), length = 1.35, width = 1.45, heading = 351.0, minZ = 30.00, maxZ = 31.73 }, },
+    ['sheriff1'] = {
+        { coords = vector3(-448.53, 6013.89, 32.29), length = 1.35, width = 1.45, heading = 351.0, minZ = 30.00, maxZ = 31.73 }, },
+    ['sheriff2'] = {
+        { coords = vector3(1859.75, 3691.82, 34.33), length = 1.35, width = 1.45, heading = 351.0, minZ = 30.00, maxZ = 31.73 }, },
+    ['sheriff3'] = {
+        { coords = vector3(359.13, -1590.46, 31.05), length = 1.35, width = 1.45, heading = 351.0, minZ = 30.00, maxZ = 31.73 }, },
     ['ambulance'] = {
         { coords = vector3(335.46, -594.52, 43.28), length = 1.2, width = 0.6, heading = 341.0, minZ = 43.13, maxZ = 43.73 },
     },
@@ -42,6 +72,10 @@ Config.BossMenuZones = {
     ['mechanic'] = {
         { coords = vector3(-339.53, -156.44, 44.59), length = 1.15, width = 2.6, heading = 353.0, minZ = 43.59, maxZ = 44.99 },
     },
+    ['vanillaunicorn'] = {
+        { coords = vector3(94.28, -1293.15, 29.27), length = 1.35, width = 1.35, heading = 301.5, minZ = 28, maxZ = 30.00 },
+    },
+
 }
 
 Config.GangMenus = {
