@@ -54,7 +54,7 @@ Config.BossMenuZones = {
     ['sheriff1'] = {
         { coords = vector3(-448.53, 6013.89, 32.29), length = 1.35, width = 1.45, heading = 351.0, minZ = 30.00, maxZ = 31.73 }, },
     ['sheriff2'] = {
-        { coords = vector3(1859.75, 3691.82, 34.33), length = 1.35, width = 1.45, heading = 351.0, minZ = 30.00, maxZ = 31.73 }, },
+        { coords = vector3(1859.89, 3691.0, 34.33), length = 0.6, width = 0.8, heading = 31.0, minZ = 34.13, maxZ = 36.53 }, },
     ['sheriff3'] = {
         { coords = vector3(359.54, -1591.04, 31.05), length = 1.3, width = 2.3, heading = 50, minZ = 27.85, maxZ = 31.86 }, },
     ['ambulance'] = {
